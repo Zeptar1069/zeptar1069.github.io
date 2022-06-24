@@ -87,7 +87,7 @@
         let count = localStorage.getItem("page_view");
         count = 1;
         localStorage.setItem("page_view", 1);
-        count = Number(visitCount) + 1;
+        count = Number(count) + 1;
         localStorage.setItem("page_view", count);
         console.log(count);
       </script>
