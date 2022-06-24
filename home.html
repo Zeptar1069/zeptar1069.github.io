@@ -83,6 +83,14 @@
   </head>
   <body>
     <main>
+      <script>
+        let count = localStorage.getItem("page_view");
+        count = 1;
+        localStorage.setItem("page_view", 1);
+        count = Number(visitCount) + 1;
+        localStorage.setItem("page_view", visitCount);
+        console.log(count);
+      </script>
       <section class="header">
         <nav>
           <a href="/"><img src="https://zeptar1069.github.io/assets/images/logo.png"></a>
