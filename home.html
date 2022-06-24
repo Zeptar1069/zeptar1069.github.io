@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
     <link rel="icon" type="image/x-icon" href="https://zeptar1069.github.io/assets/images/favicon.ico">
+    <script async src="https://api.countapi.xyz/hit/zeptar.is-a.dev/e02291d3-5ed4-4c7e-b9a1-e8381eea08b3?callback=websiteVisits"></script>
     <style>
       * {
         margin: 0;
@@ -90,6 +91,10 @@
         count = Number(count) + 1;
         localStorage.setItem("page_view", count);
         console.log(count);
+
+        function websiteVisits(response) {
+          console.log(response.value);
+        };
       </script>
       <section class="header">
         <nav>
