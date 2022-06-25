@@ -71,7 +71,7 @@ nav img {
 }
 
 .container-views {
-  position: relative;
-  left: 0px;
-  bottom: 0px;
+  position: absolute;
+  left: 80px;
+  bottom: 10px;
 };
