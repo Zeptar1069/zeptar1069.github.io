@@ -72,7 +72,7 @@ nav img {
 
 .container-views {
   position: absolute;
-  left: 80px;
+  right: 80px;
   bottom: 10px;
   background-color: black;
 }
@@ -82,5 +82,5 @@ nav img {
 }
 
 .container-views p {
-  color: whitel
+  color: white;
 }
