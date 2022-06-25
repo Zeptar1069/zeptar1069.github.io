@@ -74,4 +74,13 @@ nav img {
   position: absolute;
   left: 80px;
   bottom: 10px;
-};
+  background-color: black;
+}
+
+.container-views h3 {
+  color: white;
+}
+
+.container-views p {
+  color: whitel
+}
