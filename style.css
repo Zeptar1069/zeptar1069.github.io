@@ -73,11 +73,11 @@ nav img {
 .container-views {
   position: absolute;
   right: 0px;
-  bottom: 0px;
-  width: 300px;
-  height: 300px;
+  bottom: -50px;
+  width: 145px;
+  height: 145px;
   background-color: black;
-  border-top-left-radius: 100%;
+  border-top-left-radius: 30%;
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -85,8 +85,14 @@ nav img {
 
 .container-views h3 {
   color: white;
+  position: absolute;
+  right: 15px;
+  bottom: 90px;
 }
 
 .container-views p {
   color: white;
+  position: absolute;
+  right: 60px;
+  bottom: 65px;
 }
