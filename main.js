@@ -1,3 +1,3 @@
 function websiteVisits(response) {
-  document.getElementById('containerViews').querySelector("p").innerHTML = response.value;
+  document.getElementById('containerViews').querySelector('p').innerHTML = response.value;
 };
